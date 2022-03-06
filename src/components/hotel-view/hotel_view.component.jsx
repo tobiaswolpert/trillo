@@ -22,11 +22,45 @@ const HotelView = () => {
 
       <div className="overview">
         <h1 className="overview__heading">Hotel Las Palmas</h1>
-        <div className="overview__stars"></div>
+
+        <div className="overview__stars">
+          <div className="overview__icon-star">
+            <ion-icon name="star-sharp"></ion-icon>
+          </div>
+
+          <div className="overview__icon-star">
+            <ion-icon name="star-sharp"></ion-icon>
+          </div>
+
+          <div className="overview__icon-star">
+            <ion-icon name="star-sharp"></ion-icon>
+          </div>
+
+          <div className="overview__icon-star">
+            <ion-icon name="star-sharp"></ion-icon>
+          </div>
+
+          <div className="overview__icon-star">
+            <ion-icon name="star-sharp"></ion-icon>
+          </div>
+        </div>
+
+        <div className="overview__location">
+          <div className="overview__icon-location">
+            <ion-icon name="location-sharp"></ion-icon>
+          </div>
+          <button className="btn-inline">Albufeira, Portugal</button>
+        </div>
+
+        <div className="overview__rating">
+          <div className="overview__rating-average">8.6</div>
+          <div className="overview__rating-count">429 votes</div>
+        </div>
       </div>
 
-      <div className="overview__location">
-        <ion-icon name="location-outline"></ion-icon>
+      <div className="detail">
+        <div className="description">Description</div>
+        <div className="user-reviews">User Reviews</div>
       </div>
     </div>
   );
