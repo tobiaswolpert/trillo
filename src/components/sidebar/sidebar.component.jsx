@@ -36,7 +36,7 @@ const Sidebar = () => {
           </a>
         </li>
       </ul>
-      <div className="legal">&copy; 2017 by trillo. All rights reserved.</div>
+      <div className="legal">&copy; 2022 by trillo. All rights reserved.</div>
     </div>
   );
 };
